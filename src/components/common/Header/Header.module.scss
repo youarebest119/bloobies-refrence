@@ -1,0 +1,33 @@
+@import "../../../assets/theme/_var.scss";
+
+.header {
+    .header_in {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px 0;
+
+        .logo {
+            max-width: 200px;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+
+            li {
+                padding-inline: 20px;
+
+                a {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: $light;
+
+                    &:hover {
+                        color: $base2;
+                    }
+                }
+            }
+        }
+    }
+}

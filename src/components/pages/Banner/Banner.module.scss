@@ -1,0 +1,52 @@
+@import "../../../assets/theme/_var.scss";
+
+.banner {
+    .banner_in {
+        min-height: calc(100vh - 100px);
+        padding: 200px 0 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .down_btn {
+            color: $base;
+            background-color: transparent;
+            border: none;
+            outline: none;
+            font-size: 44px;
+            font-weight: 600;
+            background-color: rgba(white, 0.1);
+            backdrop-filter: blur(4px);
+            margin-bottom: -70px;
+            height: 200px;
+            padding-inline: 100px;
+            z-index: 12;
+
+            svg {
+                margin-left: 20px;
+            }
+        }
+
+        h2 {
+            font-size: 150px;
+            line-height: 1;
+            color: $base2;
+            font-weight: 800;
+            white-space: nowrap;
+
+            >div {
+                color: inherit;
+                display: inline-block;
+                font-weight: inherit;
+                font-size: inherit;
+
+                span {
+                    color: inherit;
+                    font-weight: inherit;
+                    font-size: inherit;
+                }
+            }
+        }
+    }
+}
